@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#main-container{
+    min-height: 100vh;
+    background-color:cadetblue;
+}
+
+#laptop{
+    /* border: 2px solid red; */
+    height:650px;
+    width:600px;
+}
+
+.flex-column-centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------- LAPTOP TOP -------- */
+
+#laptop-top{
+    border:2px solid black;
+    border-radius: 10px;
+    height:50%;
+    width: 100%;
+    background-color:gray; 
+}
+
+#laptop-screen{
+    border: 2px solid black;
+    border-radius:5px;
+    height:95%;
+    width: 97%;
+    background-color:black; 
+    color:white;
+    padding:2%;
+}
+
+/* -------- LAPTOP BOTTOM -------- */
+
+#laptop-bottom{
+    border:2px solid black;
+    border-radius: 10px;
+    height:50%;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: space-around;
+}
+
+#keyboard-container{
+    border: 2px solid black;
+    border-radius:5px;
+    height:60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#trackpad{
+    border: 2px solid black;
+    border-radius:5px;
+    height:35%;
+    width:40%;
+    margin-bottom:5px;
+}
+
+/* -------- KEYBOARD ------ */
+.keyboard-row{
+    /* border:1px solid black; */
+    height:15%;
+    width:98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.button-xsm{
+    /* border: 1px solid black; */
+    border-radius:5%;
+    height:60%;
+    width: 6%;
+    background-color: black;
+}
+
+.button-sm{
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    height:80%;
+    width:6%;
+    background-color: black;
+}
+
+.button-med{
+    border-radius: 5%;
+    height:80%;
+    width:8%;
+    background-color: black;
+}
+
+.button-large{
+    border-radius: 5%;
+    height:80%;
+    width: 10%;
+    background-color: black;
+}
+
+.button-xlarge{
+    border-radius:5%;
+    height:80%;
+    width: 15%;
+    background-color: black;
+}
+
+#button-space{
+    border-radius:5%;
+    height:80%;
+    width: 35%;
+    background-color: black;
+}
+
+/* -------- ARROW KEYS -------- */
+
+#arrow-keys{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction:column;
+    height: 80%;
+    width: 18%;
+}
+
+#arrow-top{
+    display:flex;
+    justify-content: center;
+    height: 51%;
+    width:100%;
+}
+
+#arrow-bottom{
+    display: flex;
+    justify-content: space-between;
+    height:49%;
+    width: 100%;
+}
+
+.button-arrow{
+    width: 30%;
+    height:90%;
+    border-radius:5%;
+    background-color: black;
+}
+
+/* -------- FORM --------*/
+
+form{
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+input{
+    background-color: black;
+    color: white;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: .95em;
+}
+
+input:focus{
+    outline: none;
+}
